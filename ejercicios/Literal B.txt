@@ -1,0 +1,18 @@
+1. (ventas(5),i[0-n])  
+
+2. (dias(5), x(20)[{a-z}, {BS}])
+3. dias[0]<-- "Lunes"
+4. dias[1]<-- "Martes"
+5. dias[2]<-- "Miércoles"
+6. dias[3]<-- "Jueves"
+7. dias[4]<-- "Viernes"
+8. indice, i[0-n]
+9. cadena, x(n)[{a-z}, {BS}]
+
+10. Para (indice <-- 0, indice < 5, 1) entonces
+11.    Escribir "Ingrese los ingresos del " + dias[indice]
+12.    leer ventas[indice]
+13.    cadena <-- cadena + dias[indice] + " $" + ventas[indice] + "\n"
+14. FinPara
+
+15. Escribir cadena

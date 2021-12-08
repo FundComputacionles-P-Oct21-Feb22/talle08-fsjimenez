@@ -1,0 +1,14 @@
+1. arreglo(5), i[0-n]
+
+2. arreglo[0] <-- 10
+3. arreglo[1] <-- 9
+4. arreglo[2] <-- 20
+5. arreglo[3] <-- 29
+6. arreglo[4] <-- 100
+7. indice. i[0-n]
+
+13. Para(indice <-- 0, indice < 5, 1) entonces
+14.   Si(arreglo[indice] >= 2 && arreglo[indice] MOD 2 == 0) entonces
+15.     Escribir arreglo[indice]
+15.   FinSi
+15. FinPara
